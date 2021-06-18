@@ -190,13 +190,13 @@ button {
   pointer-events: none;
 }
 .backdrop.is-hidden .modal {
-  transform: scale(1.1) translate(-50%, -50%);
+  transform: scale(1) translate(-50%, -50%);
 }
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-30%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1.1);
   width: 528px;
   height: 521px;
   background-color: var(--background-color);
